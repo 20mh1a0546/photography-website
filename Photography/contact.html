@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+    .container-fluid{
+       background-image:url(./images/cont.avif);
+       background-repeat: no-repeat;
+    }
+    li{
+        padding-right: 70px;
+        
+    }
+    a{
+        color: rgb(18, 16, 16);
+        padding: 10px;
+        font-size: larger;
+    }
+    a:hover{
+        color:wheat;
+    }
+    footer{
+        background-color: black;
+    }
+    h1{
+    font-family: cursive;
+    color:white;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="#">CSK</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" style="background-color: rgb(52, 4, 4);;">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav" >
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Albums.html">Albums</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>    
+          </ul>
+        </div>  
+      </nav>
+      <div class="container-fluid" >
+        <h1>Book An Event</h1>
+        <div class="row align-items-center">
+           <div class="col-lg-4">
+              <img src="s.jpg" alt="">
+           </div>
+           <div class="col-lg-6 offset-lg-1">
+              <form>
+                 <div class="mb-3">
+                   <small style="color: white;">Name :</small>
+                   <input type="text" placeholder="Enter your Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                 </div>
+                 <div class="mb-3">
+                    <small style="color: white;">Email : </small>
+                    <input type="email" class="form-control"placeholder="Enter your Email" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                  </div>
+                  <div class="mb-3">
+                   <small style="color: white;">Phone number :</small>
+                   <input type="number" placeholder="Enter your Phone number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                 </div>
+                 <div class="mb-3">
+                   <small style="color: white;">Photography Type :</small>
+                   <input type="text" class="form-control" placeholder="Wedding photography or Event photography or Travelling photography etc.."id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                 </div>
+                  <div class="mb-3">
+                    <small style="color: white;">Address :</small>
+                    <textarea name="" id="" cols="30" rows="4" placeholder="Enter your Address" class="form-control" required></textarea>
+                  </div>
+                   <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+   Submit
+ </button>
+      <div class="container footer">
+        <div class="row">
+         <p style="color:white;font-size: larger;padding-top:100px ;"> By John Micheal powered and secured by CSK</p>
+         </div>
+         <div class="row" >
+            <a href="#" style="color:white"><i class="fa fa-facebook"></i></a> 
+            <a href="#" style="color:white"><i class="fa fa-instagram"></i></a> 
+        </div>  
+    </div> 
+</body>
+</html>
